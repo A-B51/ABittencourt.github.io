@@ -1542,7 +1542,7 @@ figcaption {
   .navigation {
     padding: 20px 30px;
     align-items: center;
-    background-color: transparent;
+    background-color: #fff;
   }
   .cta-wrap {
     padding-right: 30px;
@@ -1659,7 +1659,7 @@ figcaption {
     padding-right: 20px;
     padding-left: 20px;
     align-items: center;
-    background-color: transparent;
+    background-color: #fff;
   }
   .menu-button {
     -webkit-box-flex: 0;
