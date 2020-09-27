@@ -224,8 +224,8 @@ figcaption {
 }
 
 .button:hover {
-  background-color: #32343a;
-  color: #fff;
+  background-color: #f1f1f1;
+  color: #838b8b;
 }
 
 .button:active {
@@ -239,12 +239,13 @@ figcaption {
 }
 
 .button.cc-jumbo-button.cc-jumbo-white {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 
 .button.cc-jumbo-button.cc-jumbo-white:hover {
   background-color: #f1f1f1;
+  color: #838b8b;
 }
 
 .button.cc-jumbo-button.cc-jumbo-white:active {
@@ -573,7 +574,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 620px;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
