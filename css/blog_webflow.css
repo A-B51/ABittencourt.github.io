@@ -1317,10 +1317,12 @@ figcaption {
     margin-left: 30px;
   }
   .navigation-wrap {
-    background-color: #fff;
+    background-color: transparent;
   }
   .navigation {
     padding: 25px 30px;
+    align-items: center;
+    background-color: transparent;
   }
   .navigation-item {
     padding: 15px 30px;
@@ -1341,7 +1343,7 @@ figcaption {
     background-color: transparent;
   }
   .navigation-items {
-    background-color: #fff;
+    background-color: transparent;
   }
   .cta-text {
     width: auto;
@@ -1507,6 +1509,8 @@ figcaption {
   }
   .navigation {
     padding: 20px 30px;
+    align-items: center;
+    background-color: transparent;
   }
   .cta-wrap {
     padding-right: 30px;
@@ -1593,6 +1597,8 @@ figcaption {
   .navigation {
     padding-right: 20px;
     padding-left: 20px;
+    align-items: center;
+    background-color: transparent;
   }
   .menu-button {
     -webkit-box-flex: 0;
