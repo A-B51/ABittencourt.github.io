@@ -444,20 +444,24 @@ figcaption {
 }
 
 .navigation-item {
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   padding-top: 9px;
   padding-bottom: 9px;
-  opacity: 0.6;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 20px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
   display: block;
-  color: #222222;
+  color: #fff;
 }
 
 .navigation-item:hover {
   opacity: 0.9;
+  color: #222;
+  background: #fff;
 }
 
 .navigation-item:active {
