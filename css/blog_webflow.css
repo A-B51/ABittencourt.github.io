@@ -132,6 +132,19 @@ figcaption {
   text-align: center;
 }
 
+.link_header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+.link_header:hover{
+  color: #eee;
+  transition: 0.5s;
+}
+
 .divider {
   height: 1px;
   background-color: #eee;
@@ -580,7 +593,7 @@ figcaption {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 70%;
   z-index: -1;
   object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
 }
@@ -1181,6 +1194,21 @@ figcaption {
   grid-template-columns: 2fr 1fr;
 }
 
+.about-grid.cc-about-3 {
+  margin-bottom: 80px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 80px;
+  grid-row-gap: 30px;
+  grid-template-areas: ". .";
+  -ms-grid-columns: 1fr 80px 2fr;
+  grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
 .intro-text {
   width: 80%;
   margin-right: auto;
@@ -1218,15 +1246,16 @@ figcaption {
 }
 
 .blog-heading {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
 .blog-preview-wrap {
   width: 33.33%;
-  padding-right: 45px;
+  padding-right: 15px;
   padding-bottom: 30px;
   padding-left: 15px;
+  text-align: -webkit-center;
 }
 
 .collection-list-wrapper {
