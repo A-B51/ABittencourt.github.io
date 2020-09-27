@@ -584,7 +584,6 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
-  background-image: url('../images/portfolio-2---wide.svg');
   background-position: 0px 0px;
   background-size: cover;
   color: #fff;
@@ -1473,6 +1472,32 @@ figcaption {
 }
 
 @media (max-width: 767px) {
+
+  .intro-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 620px;
+    margin-bottom: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url('../images/Economics.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .video {
+    display: none;
+  }
+
   .section {
     margin-right: 15px;
     margin-left: 15px;
@@ -1590,6 +1615,32 @@ figcaption {
     font-size: 36px;
     line-height: 52px;
   }
+
+  .intro-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 620px;
+    margin-bottom: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url('../images/Economics.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .video {
+    display: none;
+  }
+
   .rich-text {
     width: 100%;
     max-width: none;
