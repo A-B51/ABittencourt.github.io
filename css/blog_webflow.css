@@ -453,6 +453,7 @@ figcaption {
   letter-spacing: 1px;
   text-transform: uppercase;
   display: block;
+  color: #222222;
 }
 
 .navigation-item:hover {
