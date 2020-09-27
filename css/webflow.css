@@ -1050,6 +1050,7 @@ textarea.w-select {
   margin-left: auto;
   margin-right: auto;
   z-index: 900;
+  background-color: #fff;
 }
 .w-dropdown-btn,
 .w-dropdown-toggle,
