@@ -598,6 +598,7 @@ figcaption {
   z-index: -1;
   object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
   display: block;
+  overflow: hidden;
 }
 
 .intro-header.cc-subpage {
