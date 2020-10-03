@@ -1302,7 +1302,9 @@ figcaption {
     justify-content: center;
   }
   .button.cc-contact-us {
-    display: inline-block;
+    display: block;
+    margin-top: -60px;
+    max-width: fit-content;
   }
   .heading-jumbo {
     font-size: 56px;
