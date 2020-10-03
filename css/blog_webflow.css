@@ -1302,7 +1302,7 @@ figcaption {
     justify-content: center;
   }
   .button.cc-contact-us {
-    display: none;
+    display: inline-block;
   }
   .heading-jumbo {
     font-size: 56px;
