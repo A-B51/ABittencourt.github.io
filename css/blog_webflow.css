@@ -86,6 +86,24 @@ a:active {
   color: #43464d;
 }
 
+.link {
+  display: block;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #1a1b1f;
+  text-decoration: underline;
+  background: transparent;
+  background-color: transparent;
+}
+
+.link:hover {
+  color: #AAAAAA;
+}
+
+.link:active {
+  color: #43464d;
+}
+
 ul {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -130,6 +148,24 @@ figcaption {
   font-size: 14px;
   line-height: 26px;
   text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  max-width: 100px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 .link_header {
@@ -341,6 +377,28 @@ figcaption {
   font-weight: 400;
   text-transform: none;
 }
+
+.heading-jumbo-smaller {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: none;
+  opacity: 0.75;
+}
+
+.heading-jumbo-smallerer {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: none;
+  opacity: 0.6;
+  font-weight: 200;
+}
+
 
 .styleguide-button-wrap {
   margin-top: 10px;
