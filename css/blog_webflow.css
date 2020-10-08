@@ -1563,6 +1563,10 @@ tr:nth-child(even) {
     display: none;
   }
 
+  .iframe {
+    max-width: fit-content;
+  }
+
   .section {
     margin-right: 15px;
     margin-left: 15px;
@@ -1704,6 +1708,16 @@ tr:nth-child(even) {
 
   .video {
     display: none;
+  }
+
+  .iframe {
+    max-width: fit-content;
+  }
+
+  td, th {
+    font-size: 8px;
+    padding: 0;
+    width: fit-content;
   }
 
   .rich-text {
