@@ -1410,6 +1410,11 @@ tr:nth-child(even) {
   .menu-icon {
     display: block;
   }
+
+  .menu-icon:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+  }
   .menu {
     position: static;
     margin-left: 30px;
