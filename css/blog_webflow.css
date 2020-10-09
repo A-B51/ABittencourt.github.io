@@ -682,7 +682,7 @@ tr:nth-child(even) {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 83.5%;
   z-index: -1;
   object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
   display: block;
@@ -1251,11 +1251,11 @@ tr:nth-child(even) {
 
 .home-content-wrap {
   margin-top: 80px;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 
 .home-section-wrap {
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .section-heading {
@@ -1274,9 +1274,10 @@ tr:nth-child(even) {
   grid-row-gap: 30px;
   grid-template-areas: ". .";
   -ms-grid-columns: 1fr 80px 2fr;
-  grid-template-columns: 8fr 2fr;
+  grid-template-columns: 2fr 2fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  display: inline-flex;
 }
 
 .about-grid.cc-about-2 {
@@ -1375,6 +1376,10 @@ tr:nth-child(even) {
     padding-right: 0px;
     padding-left: 0px;
   }
+  .about-grid{
+    display: block;
+  }
+
   .styleguide-block {
     text-align: center;
   }
@@ -1563,6 +1568,10 @@ tr:nth-child(even) {
 
 @media (max-width: 767px) {
 
+  .about-grid{
+    display: block;
+  }
+
   .intro-header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1715,6 +1724,10 @@ tr:nth-child(even) {
   h1 {
     font-size: 36px;
     line-height: 52px;
+  }
+
+  .about-grid{
+    display: block;
   }
 
   .intro-header {
