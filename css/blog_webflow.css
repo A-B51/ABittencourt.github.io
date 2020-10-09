@@ -87,7 +87,7 @@ a:active {
 }
 
 .link {
-  display: block;
+  display: inline-block;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   color: #1a1b1f;
@@ -154,7 +154,6 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-
 }
 
 td, th {
@@ -162,6 +161,30 @@ td, th {
   text-align: left;
   padding: 8px;
   max-width: 100px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
 }
 
 tr:nth-child(even) {
@@ -248,15 +271,16 @@ tr:nth-child(even) {
 .button {
   padding: 12px 25px;
   border-radius: 0px;
-  background-color: #1a1b1f;
+  background-color: #FFEC00;
   -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
-  color: #fff;
+  color: #222;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
+  max-width: fit-content;
 }
 
 .button:hover {
@@ -272,11 +296,12 @@ tr:nth-child(even) {
   padding: 16px 35px;
   font-size: 14px;
   line-height: 26px;
+  font-weight: 700;
 }
 
 .button.cc-jumbo-button.cc-jumbo-white {
-  background-color: #000;
-  color: #fff;
+  background-color: #FFEC00;
+  color: #222;
 }
 
 .button.cc-jumbo-button.cc-jumbo-white:hover {
@@ -513,7 +538,7 @@ tr:nth-child(even) {
   letter-spacing: 1px;
   text-transform: uppercase;
   display: block;
-  color: #fff;
+  color: #222;
 }
 
 .navigation-item:hover {
@@ -1249,7 +1274,7 @@ tr:nth-child(even) {
   grid-row-gap: 30px;
   grid-template-areas: ". .";
   -ms-grid-columns: 1fr 80px 2fr;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 8fr 2fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -1257,7 +1282,7 @@ tr:nth-child(even) {
 .about-grid.cc-about-2 {
   grid-template-areas: ". .";
   -ms-grid-columns: 2fr 1fr;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 8fr 2fr;
 }
 
 .about-grid.cc-about-3 {
