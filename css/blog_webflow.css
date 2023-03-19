@@ -723,7 +723,20 @@ tr:nth-child(even) {
   color: #fff;
 }
 
+.intro-header.cc-subpage-cv {
+  height: 280px;
+  background-color: #fff;
+  background-image: none;
+  color: #000;
+}
+
 .intro-content {
+  width: 70%;
+  max-width: 1140px;
+  text-align: center;
+}
+
+.intro-content-cv {
   width: 70%;
   max-width: 1140px;
   text-align: center;
