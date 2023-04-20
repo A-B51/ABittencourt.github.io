@@ -202,6 +202,21 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+.link_cv {
+  background-color: transparent;
+  display: inline;
+  font-style: normal;
+  text-decoration: None;
+  overflow: hidden;
+  color: #000;
+}
+
+.link_cv:hover {
+  color: #555;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+
 .work-experience {
   border-bottom: 0.5px solid #ccc; /* Change the color and width of the line as needed */
   padding-bottom: 20px; /* Add some padding to separate the content from the line */
