@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
   font-size: 30px;
   line-height: 46px;
@@ -164,31 +164,113 @@ td, th {
 }
 
 .collapsible {
-  background-color: #777;
-  color: white;
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  background-color: #FFEC00;
+  color: #222;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+  text-align: center;
+  outline:black;
+  font-size: 18px;
+  font-style: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .active, .collapsible:hover {
   background-color: #555;
+  opacity: 0.5;
+  color: #222;
+  background: #FFEC00;
 }
 
 .content {
   padding: 0 18px;
+  padding-left: 120px;
+  padding-right: 160px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+  margin-bottom: 10px;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.link_cv {
+  background-color: transparent;
+  display: inline;
+  font-style: normal;
+  text-decoration: None;
+  overflow: hidden;
+  color: #000;
+}
+
+/* OLD SOLUTION SKIL BARS --------------------------------
+
+.skill-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.skill {
+  background-color: #FFEC00;
+  height: 24px;
+  line-height: 24px;
+  color: black;
+  text-align: center;
+  border-radius: 4px;
+}
+
+ OLD SOLUTION SKIL BARS --------------------------------*/
+
+ .skill-row {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between skill name and bar */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add some spacing between skill rows */
+}
+
+.skill-name {
+  flex: 1; /* Allows the skill name to take available space */
+  margin-right: 10px; /* Add some spacing between the skill name and bar */
+}
+
+.skill-container {
+  flex: 4; /* Allows the skill container to take available space */
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.skill {
+  background-color: #FFEC00;
+  height: 24px;
+  line-height: 24px;
+  color: BLACK;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.link_cv:hover {
+  color: #555;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+
+.work-experience {
+  border-bottom: 0.5px solid #ccc; /* Change the color and width of the line as needed */
+  padding-bottom: 20px; /* Add some padding to separate the content from the line */
+  margin-bottom: 20px; /* Add some margin to separate each work experience */
+}
+
+.work-experience:last-child {
+  border-bottom: none;
 }
 
 .link_header {
@@ -380,6 +462,12 @@ tr:nth-child(even) {
 
 .paragraph-light {
   opacity: 0.6;
+}
+
+.paragraph-cv {
+  opacity: 0.6;
+  text-align: justify;
+  margin-bottom: 10px;
 }
 
 .heading-jumbo {
@@ -696,7 +784,20 @@ tr:nth-child(even) {
   color: #fff;
 }
 
+.intro-header.cc-subpage-cv {
+  height: 280px;
+  background-color: #fff;
+  background-image: none;
+  color: #000;
+}
+
 .intro-content {
+  width: 70%;
+  max-width: 1140px;
+  text-align: center;
+}
+
+.intro-content-cv {
   width: 70%;
   max-width: 1140px;
   text-align: center;
