@@ -211,6 +211,52 @@ tr:nth-child(even) {
   color: #000;
 }
 
+/* OLD SOLUTION SKIL BARS --------------------------------
+
+.skill-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.skill {
+  background-color: #FFEC00;
+  height: 24px;
+  line-height: 24px;
+  color: black;
+  text-align: center;
+  border-radius: 4px;
+}
+
+ OLD SOLUTION SKIL BARS --------------------------------*/
+
+ .skill-row {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between skill name and bar */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add some spacing between skill rows */
+}
+
+.skill-name {
+  flex: 1; /* Allows the skill name to take available space */
+  margin-right: 10px; /* Add some spacing between the skill name and bar */
+}
+
+.skill-container {
+  flex: 4; /* Allows the skill container to take available space */
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.skill {
+  background-color: #FFEC00;
+  height: 24px;
+  line-height: 24px;
+  color: BLACK;
+  text-align: center;
+  border-radius: 4px;
+}
+
 .link_cv:hover {
   color: #555;
   transition: 0.5s;
