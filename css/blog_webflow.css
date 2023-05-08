@@ -1674,6 +1674,46 @@ tr:nth-child(even) {
 
 @media (max-width: 767px) {
 
+  /* ------------------ CELL PHONE CV FORMATTING ------------------ */
+
+  .navigation {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .skill-row {
+    flex-direction: column; /* Stack skill name and bar vertically */
+    align-items: flex-start;
+  }
+
+  .skill-name {
+    margin-bottom: 5px; /* Add some spacing between the skill name and bar */
+  }
+
+  .heading-jumbo {
+    font-size: 48px; /* Reduce font size for smaller screens */
+    line-height: 60px;
+  }
+
+  .heading-jumbo-small {
+    font-size: 28px; /* Reduce font size for smaller screens */
+    line-height: 40px;
+  }
+
+  .paragraph-bigger {
+    font-size: 16px; /* Reduce font size for smaller screens */
+    line-height: 28px;
+  }
+
+  .navigation-item {
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+
+  .content {
+    padding-left: 18px; /* Reduce padding for smaller screens */
+    padding-right: 18px;
+  }
+   /* ------------------ CELL PHONE CV FORMATTING ------------------ */
+
   .about-grid{
     display: block;
   }
