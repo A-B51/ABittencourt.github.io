@@ -1677,7 +1677,7 @@ tr:nth-child(even) {
   /* ------------------ CELL PHONE CV FORMATTING ------------------ */
 
   .navigation {
-    padding: 15px; /* Reduce padding for smaller screens */
+    padding: 10px; /* Reduce padding for smaller screens */
   }
 
   .skill-row {
@@ -1690,18 +1690,18 @@ tr:nth-child(even) {
   }
 
   .heading-jumbo {
-    font-size: 48px; /* Reduce font size for smaller screens */
-    line-height: 60px;
-  }
-
-  .heading-jumbo-small {
     font-size: 28px; /* Reduce font size for smaller screens */
     line-height: 40px;
   }
 
+  .heading-jumbo-small {
+    font-size: 18px; /* Reduce font size for smaller screens */
+    line-height: 30px;
+  }
+
   .paragraph-bigger {
-    font-size: 16px; /* Reduce font size for smaller screens */
-    line-height: 28px;
+    font-size: 10px; /* Reduce font size for smaller screens */
+    line-height: 18px;
   }
 
   .navigation-item {
@@ -1709,8 +1709,8 @@ tr:nth-child(even) {
   }
 
   .content {
-    padding-left: 18px; /* Reduce padding for smaller screens */
-    padding-right: 18px;
+    padding-left: 8px; /* Reduce padding for smaller screens */
+    padding-right: 8px;
   }
    /* ------------------ CELL PHONE CV FORMATTING ------------------ */
 
