@@ -1730,11 +1730,13 @@ tr:nth-child(even) {
   }
 
   .heading-jumbo {
+    display: block;
     font-size: 28px; /* Reduce font size for smaller screens */
     line-height: 40px;
   }
 
   .heading-jumbo-small {
+    display: block;
     font-size: 18px; /* Reduce font size for smaller screens */
     line-height: 30px;
   }
@@ -1742,6 +1744,15 @@ tr:nth-child(even) {
   .paragraph-bigger {
     font-size: 10px; /* Reduce font size for smaller screens */
     line-height: 18px;
+    display: block;
+  }
+  
+  .paragraph-bigger.cc-bigger-light {
+    opacity: 0.6;
+  }
+  
+  .paragraph-bigger.cc-bigger-white-light {
+    opacity: 0.6;
   }
 
   .paragraph-cv {
