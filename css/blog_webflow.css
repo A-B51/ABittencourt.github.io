@@ -1864,8 +1864,9 @@ tr:nth-child(even) {
     margin-top: 38px;
     margin-bottom: 30px;
     font-size: 38px;
-    line-height: 28px;
+    line-height: 45px;
   }
+
   .heading-jumbo-small {
     font-size: 28px;
     line-height: 35px;
