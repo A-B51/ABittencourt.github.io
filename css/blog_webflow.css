@@ -1648,6 +1648,7 @@ tr:nth-child(even) {
   }
   .intro-text {
     width: auto;
+    margin-bottom: 58px;
   }
   .collection-wrap {
     margin-right: 0px;
