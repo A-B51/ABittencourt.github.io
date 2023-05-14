@@ -1702,6 +1702,7 @@ tr:nth-child(even) {
   .skill-row {
     flex-direction: column; /* Stack skill name and bar vertically */
     align-items: flex-start;
+    display: block; /*otherwise it wont display the skill bars*/
   }
 
   .skill-name {
@@ -1731,6 +1732,7 @@ tr:nth-child(even) {
     font-size: 14px;
     margin-right: 25px;
     margin-left: 10px;
+    line-height: 20px;
   }
 
   .navigation-item {
