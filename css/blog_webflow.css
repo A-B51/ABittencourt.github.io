@@ -1680,6 +1680,10 @@ tr:nth-child(even) {
     padding: 10px; /* Reduce padding for smaller screens */
   }
 
+  .intro-text {
+    margin-bottom: 58px;
+  }
+
   .skill {
     background-color: #FFEC00;
     height: 10px;
