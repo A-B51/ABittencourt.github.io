@@ -1680,6 +1680,20 @@ tr:nth-child(even) {
     padding: 10px; /* Reduce padding for smaller screens */
   }
 
+  .skill {
+    background-color: #FFEC00;
+    height: 10px;
+    line-height: 24px;
+    color: BLACK;
+    text-align: center;
+    border-radius: 21px;
+      border-top-left-radius: 21px;
+      border-top-right-radius: 21px;
+      border-bottom-right-radius: 21px;
+      border-bottom-left-radius: 21px;
+    display: block;
+  }
+
   .skill-row {
     flex-direction: column; /* Stack skill name and bar vertically */
     align-items: flex-start;
@@ -1687,6 +1701,7 @@ tr:nth-child(even) {
 
   .skill-name {
     margin-bottom: 5px; /* Add some spacing between the skill name and bar */
+    margin-left: 20px;
   }
 
   .paragraph-bigger {
@@ -1736,6 +1751,7 @@ tr:nth-child(even) {
     font-style: inherit;
     text-decoration: none;
     text-transform: uppercase;
+    margin-top: 5px;
   }
 
   .work-experience {
@@ -1853,7 +1869,8 @@ tr:nth-child(even) {
   }
   .paragraph-bigger {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 19px;
+    padding: 0px;
   }
   .rich-text {
     width: 90%;
@@ -1862,7 +1879,7 @@ tr:nth-child(even) {
   }
   .heading-jumbo {
     margin-top: 38px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     font-size: 38px;
     line-height: 45px;
   }
@@ -1870,6 +1887,7 @@ tr:nth-child(even) {
   .heading-jumbo-small {
     font-size: 28px;
     line-height: 35px;
+    margin-bottom: 10px;
   }
   .logo-link {
     padding-left: 0px;
