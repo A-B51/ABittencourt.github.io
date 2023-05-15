@@ -477,12 +477,27 @@ tr:nth-child(even) {
   line-height: 80px;
   text-transform: none;
 }
+.heading-jumbo-cv {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 64px;
+  line-height: 80px;
+  text-transform: none;
+}
 
 .heading-jumbo.cc-white-heading-jumbo {
   color: #fff;
 }
 
 .heading-jumbo-small {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: none;
+}
+.heading-jumbo-small-cv {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 36px;
@@ -1891,7 +1906,19 @@ tr:nth-child(even) {
     line-height: 45px;
   }
 
+  .heading-jumbo-cv {
+    margin-top: 38px;
+    margin-bottom: 0px;
+    font-size: 38px;
+    line-height: 45px;
+  }
+
   .heading-jumbo-small {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .heading-jumbo-small-cv {
     font-size: 28px;
     line-height: 35px;
     margin-bottom: 10px;
@@ -2021,6 +2048,10 @@ tr:nth-child(even) {
     max-width: none;
   }
   .heading-jumbo {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .heading-jumbo-cv {
     font-size: 36px;
     line-height: 48px;
   }
