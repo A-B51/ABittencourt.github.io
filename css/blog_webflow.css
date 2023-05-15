@@ -1891,6 +1891,11 @@ tr:nth-child(even) {
   }
   .paragraph-bigger {
     font-size: 16px;
+    line-height: 25px;
+    padding: 0px;
+  }
+  .paragraph-bigger-cv {
+    font-size: 16px;
     line-height: 19px;
     padding: 0px;
   }
@@ -1909,7 +1914,7 @@ tr:nth-child(even) {
   .heading-jumbo-cv {
     margin-top: 38px;
     margin-bottom: 0px;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 45px;
   }
 
@@ -1919,8 +1924,8 @@ tr:nth-child(even) {
     margin-bottom: 10px;
   }
   .heading-jumbo-small-cv {
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
     margin-bottom: 10px;
   }
   .logo-link {
